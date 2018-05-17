@@ -2,11 +2,11 @@
 <model>
    <assignment language="ConDec" name="10x5_1W">
       <activitydefinitions>
-         <activity id="1" name="8" />
+         <activity id="1" name="9" />
       </activitydefinitions>
       <constraintdefinitions>
 		 <constraint id="1" mandatory="true">
-            <condition>[A.org:resource=='17'][][]</condition>
+            <condition>[A.org:resource=='10'][][]</condition>
             <name>existence</name>
             <template>
                <description>A has to occur at some point in the trace</description>

@@ -10,7 +10,7 @@
       </activitydefinitions>
       <constraintdefinitions>
 		 <constraint id="1" mandatory="true">
-            <condition>[A.org:resource=='3'][T.org:resource=='18'][]</condition>
+            <condition>[A.org:resource=='3'][T.org:resource=='14'][]</condition>
             <name>response</name>
             <template>
                <description>B has to occur at some point in time after A.</description>
@@ -79,7 +79,7 @@
             </constraintparameters>
          </constraint>
 		 <constraint id="3" mandatory="true">
-            <condition>[A.org:resource=='11'][T.org:resource=='4'][]</condition>
+            <condition>[A.org:resource=='12'][T.org:resource=='4'][]</condition>
             <name>response</name>
             <template>
                <description>B has to occur at some point in time after A.</description>
@@ -120,7 +120,7 @@
             </constraintparameters>
          </constraint>
 		 <constraint id="4" mandatory="true">
-            <condition>[A.org:resource=='11'][][]</condition>
+            <condition>[A.org:resource=='12'][][]</condition>
             <name>existence</name>
             <template>
                <description>A has to occur at some point in the trace</description>
@@ -148,7 +148,7 @@
             </constraintparameters>
          </constraint>
 		 <constraint id="5" mandatory="true">
-            <condition>[A.org:resource=='13'][T.org:resource=='17'][]</condition>
+            <condition>[A.org:resource=='15'][T.org:resource=='16'][]</condition>
             <name>response</name>
             <template>
                <description>B has to occur at some point in time after A.</description>
@@ -189,7 +189,7 @@
             </constraintparameters>
          </constraint>
 		 <constraint id="6" mandatory="true">
-            <condition>[A.org:resource=='13'][][]</condition>
+            <condition>[A.org:resource=='15'][][]</condition>
             <name>existence</name>
             <template>
                <description>A has to occur at some point in the trace</description>
